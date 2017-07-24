@@ -1,0 +1,9 @@
+title = "Tile Helper"
+
+[management]
+url = "http://tilehelper.azurewebsites.net"
+
+[tileservers]
+imageExt = "jpg"
+requestFormat = "http://otile%d.mqcdn.com/tiles/1.0.0/map/%d/%d/%d.%s"
+hosts = [1, 2, 3, 4]
